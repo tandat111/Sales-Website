@@ -1,0 +1,145 @@
+
+html{
+    font-weight: bold;
+
+}
+.top{
+    width: 100%;
+    height: 16rem;  
+    background-image: linear-gradient(to right top,rgba(0, 247, 255, 0.6) 50%,rgba(220, 245, 0, 0.6),rgb(250, 243, 243,0.8) );
+}
+.top:hover img{
+    transform: scale(0.9);
+    transition: all 0.7s;
+}
+.top:hover h2{
+    transform: scale(1.1);
+    color:red;
+    transition: all 0.5s;
+}
+.top img{
+    width: 20rem;
+    height: 250px;
+    border-radius: 20px;
+    border:2px solid rgb(253, 249, 0);
+}
+.top h2{
+   font-size: 4rem;
+   position: absolute;
+   top:25px;
+   left: 24rem;
+   background-image: linear-gradient(to right top ,rgb(238, 0, 255)  ,rgb(0, 0, 0), rgb(255, 51, 0) );
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+
+}
+.right{
+    float: right;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5rem double white;
+    height: 4.3rem;
+}
+
+
+.list_menu li a{
+    border-radius: 0.5rem;
+    border:0.1rem solid yellow;
+text-transform: uppercase;
+    padding:0.3rem;
+    text-decoration: none;  
+    margin-left: -1.2rem;
+
+}
+.list_menu li:hover{
+   transform: scale(0.9);   
+   transition: all 0.5s;
+
+}
+form input{
+    margin: 10px;
+    height: 1.5rem;
+    border: 0.3rem double rgb(0, 0, 0);
+    font-weight: bold;
+}
+.btn{
+    background-color: yellow;
+    width: 5rem;
+    height: 2rem;
+    font-weight: bold;
+
+}
+.btn:hover{
+    transform: scale(0.9);    transition: all 0.5s;
+    color:red;
+
+}
+.sidebar{
+    border:0.5rem double white;
+    background-color: rgb(0, 0, 0);
+    width: 16rem;
+}
+.sidebar h4{
+    text-transform: uppercase;
+    color:rgb(0, 255, 255);
+    font-size: 1rem;
+}
+.sidebar .list_sidebar a{
+    border:0.1rem solid yellow;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    color:yellow;
+
+}
+.sidebar .list_sidebar a:hover{
+    transform: scale(0.9);    transition: all 0.3s;
+    color:rgb(0, 255, 255);
+background-color: black;
+
+}
+
+.maincontent h3{
+    font-size: 2rem;
+    background-image: linear-gradient(to right top ,black ,blue , rgb(0, 0, 0) );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.product_list li{
+    background-image: linear-gradient(to right top,rgb(8, 181, 204) ,rgb(0, 255, 179),rgba(163, 154, 154, 0.993) );
+    background-size: cover;
+    width: 15rem;
+
+}
+
+.product_list li:hover img{
+    transform:scale(0.9);
+    transition:all 0.3s;
+    border-radius: 1rem;
+    border:5px solid black;
+    transition: all .5s;
+    
+}
+.product_list li:hover .price_product{
+    transform:scale(1.4);
+    transition:all 0.3s;
+}
+.themgiohang{
+    height: 3rem;
+}
+.footer{
+    height: 3rem;
+}
+marquee{
+        background-image: linear-gradient(to right top,rgb(0, 174, 255) ,rgb(10, 10, 10),rgba(163, 154, 154, 0.993) );
+    font-size: 30px;
+    height: 3rem;
+    border: 5px double white;
+    color:rgb(161, 243, 8);
+    font-weight: bold;
+}
